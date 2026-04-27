@@ -2,7 +2,7 @@ title: TCG Vault — Theme Documentation
 description: Merchant documentation for the TCG Vault Shopify theme — purpose-built for trading card game retailers.
 theme: jekyll-theme-cayman
 markdown: kramdown
-baseurl: "/tcg-vault-theme"
+baseurl: "/tcg-vault-docs"
 url: "https://picassopreem-86.github.io"
 
 defaults:
