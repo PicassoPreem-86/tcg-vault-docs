@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vault Theme — Documentation</title>
+<style>
+*{box-sizing:border-box;margin:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.7;color:#1a1a1a;background:#fff}
+header{background:#0a0a0b;color:#fafafa;padding:2rem 0}
+header h1{font-family:'Oswald',sans-serif;font-size:2rem;text-align:center;letter-spacing:0.04em}
+header p{text-align:center;opacity:0.7;margin-top:0.5rem;font-size:0.95rem}
+.container{max-width:800px;margin:0 auto;padding:2rem 1.5rem}
+h2{font-size:1.5rem;margin:2.5rem 0 1rem;padding-bottom:0.5rem;border-bottom:1px solid #e5e5e5}
+h3{font-size:1.15rem;margin:1.5rem 0 0.5rem}
+p,li{font-size:0.95rem;margin-bottom:0.75rem}
+ul{padding-left:1.5rem}
+code{background:#f4f4f5;padding:0.15em 0.4em;border-radius:3px;font-size:0.88em}
+.toc{background:#f9f9fb;padding:1.5rem 2rem;border-radius:8px;margin-bottom:2rem}
+.toc h2{margin:0 0 0.75rem;border:none;font-size:1.1rem}
+.toc ul{list-style:none;padding:0}
+.toc li{margin:0.3rem 0}
+.toc a{color:#2563eb;text-decoration:none}
+.toc a:hover{text-decoration:underline}
+.badge{display:inline-block;background:#0a0a0b;color:#fafafa;padding:0.2em 0.6em;border-radius:4px;font-size:0.8em;font-weight:600}
+footer{text-align:center;padding:3rem 0;opacity:0.5;font-size:0.85rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>VAULT THEME</h1>
+  <p>Documentation for Shopify Theme Store merchants</p>
+</header>
+<div class="container">
+
+<nav class="toc">
+  <h2>Contents</h2>
+  <ul>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#presets">Presets &amp; Color Schemes</a></li>
+    <li><a href="#header">Header &amp; Navigation</a></li>
+    <li><a href="#homepage">Homepage Sections</a></li>
+    <li><a href="#product">Product Pages</a></li>
+    <li><a href="#collection">Collection Pages &amp; Filters</a></li>
+    <li><a href="#cart">Cart &amp; Checkout</a></li>
+    <li><a href="#tcg-sections">TCG-Specific Sections</a></li>
+    <li><a href="#metafields">TCG Metafields</a></li>
+    <li><a href="#localization">Languages &amp; Localization</a></li>
+    <li><a href="#support">Support</a></li>
+  </ul>
+</nav>
+
+<h2 id="installation">Installation</h2>
+<p>After purchasing Vault from the Shopify Theme Store:</p>
+<ul>
+  <li>Go to <strong>Online Store &gt; Themes</strong> in your Shopify admin</li>
+  <li>Click <strong>Customize</strong> on the Vault theme</li>
+  <li>Choose a preset (Vault, Sealed, Graded, Commander, or Pokemon) from <strong>Theme settings &gt; Presets</strong></li>
+  <li>Customize colors, fonts, and sections to match your brand</li>
+</ul>
+
+<h2 id="presets">Presets &amp; Color Schemes</h2>
+<p>Vault ships with <strong>5 presets</strong>, each designed for different TCG store aesthetics:</p>
+<ul>
+  <li><span class="badge">Vault</span> Dark mode with warm gold accents — ideal for singles-focused stores</li>
+  <li><span class="badge">Sealed</span> Light cream palette — optimized for sealed product photography</li>
+  <li><span class="badge">Graded</span> Warm vintage tones — perfect for graded card shops</li>
+  <li><span class="badge">Commander</span> Deep navy with bold blue accents — great for MTG-focused stores</li>
+  <li><span class="badge">Pokemon</span> Clean white with red accents — designed for Pokemon-first inventory</li>
+</ul>
+<p>Each preset includes 5 color schemes that can be assigned per-section for visual variety.</p>
+
+<h2 id="header">Header &amp; Navigation</h2>
+<h3>Announcement Bar</h3>
+<p>Enable via <strong>Header section &gt; Announcement text</strong>. Supports a link and custom text (e.g., shipping promotions).</p>
+<h3>Navigation Menu</h3>
+<p>Assign your main menu in <strong>Header section &gt; Menu</strong>. Menu items with children automatically render as dropdown menus. Recommended structure:</p>
+<ul>
+  <li>Games (with children: MTG, Pokemon, Yu-Gi-Oh!, etc.)</li>
+  <li>Singles, Sealed, Preorders, Supplies, Wholesale, Buylist, Events</li>
+</ul>
+<h3>Predictive Search</h3>
+<p>The search icon opens a predictive search overlay that shows product results with images and prices as you type.</p>
+
+<h2 id="homepage">Homepage Sections</h2>
+<p>The homepage uses TCG-specific sections that can be reordered in the theme editor:</p>
+<ul>
+  <li><strong>TCG Hero Banner</strong> — Full-width hero with background image, heading, and 2 CTA buttons</li>
+  <li><strong>Game Tiles</strong> — Colored tile grid linking to game-specific collections (up to 6 games)</li>
+  <li><strong>Specials Banner</strong> — Promotional banner with optional countdown timer</li>
+  <li><strong>Pre-order Showcase</strong> — Product grid with release dates and countdown timers</li>
+  <li><strong>Singles Grid</strong> — Featured singles with TCG badges (set code, rarity, finish)</li>
+  <li><strong>Wholesale Showcase</strong> — Case-quantity products for B2B customers</li>
+  <li><strong>Event List</strong> — Upcoming events with date, game, format, and RSVP links</li>
+  <li><strong>Supplies Grid</strong> — Accessories and supplies product grid</li>
+</ul>
+
+<h2 id="product">Product Pages</h2>
+<p>The product page features a two-column layout with 18 block types:</p>
+<h3>TCG-Specific Blocks</h3>
+<ul>
+  <li><strong>Set &amp; Rarity Badge</strong> — Displays set code and rarity with color-coded dot</li>
+  <li><strong>Foil/Finish Badge</strong> — Shows finish type (Normal, Foil, Etched, Holo) with animated shimmer for foils</li>
+  <li><strong>Condition Price Table</strong> — NM/LP/MP pricing in a clean grid</li>
+  <li><strong>Stock Indicator</strong> — Per-condition stock counts</li>
+  <li><strong>Card Specs Table</strong> — Metafield-driven specifications (artist, card number, color/type)</li>
+  <li><strong>Wholesale Info</strong> — Bulk pricing for B2B customers</li>
+  <li><strong>Other Printings</strong> — Grid of alternate printings from other sets</li>
+</ul>
+<h3>Condition Variant Picker</h3>
+<p>Products with a "Condition" option (NM, LP, MP) display pill-style buttons. Price and stock update dynamically when a condition is selected.</p>
+
+<h2 id="collection">Collection Pages &amp; Filters</h2>
+<p>Collection pages include faceted filtering with 8 TCG-specific filter groups:</p>
+<ul>
+  <li>Availability, Price, Rarity, TCG Game, Set Code, Finish, Condition, Format Legality</li>
+</ul>
+<p>Filters start collapsed to show the product grid immediately. Active filters display as removable pills. Configure filters via Shopify's <strong>Search &amp; Discovery</strong> app.</p>
+
+<h2 id="cart">Cart &amp; Checkout</h2>
+<p>Vault supports both cart page and cart drawer (configurable in Theme Settings &gt; Cart type).</p>
+<h3>Cart Drawer</h3>
+<p>The slide-out cart drawer includes a free shipping progress bar (configurable threshold), product thumbnails, condition variants, quantity controls, and a checkout button.</p>
+
+<h2 id="tcg-sections">TCG-Specific Sections</h2>
+<h3>Decklist Importer</h3>
+<p>Paste a decklist (one card per line), and the importer matches cards against your inventory, showing prices and an "Add all to cart" button. Supports MTG Arena, MTGO, and plain text formats.</p>
+<h3>Set Browser</h3>
+<p>Automatically builds a browsable grid of sets from your product tags. Filter by game (MTG, Pokemon, Yu-Gi-Oh!, One Piece, Lorcana).</p>
+<h3>Buylist Form</h3>
+<p>Customer-facing form for selling cards back. Includes payment preference (cash vs store credit), built-in FAQ accordion, and email notification.</p>
+<h3>Wholesale Application</h3>
+<p>B2B application form for trade accounts with business details, tax ID, and volume estimates.</p>
+
+<h2 id="metafields">TCG Metafields</h2>
+<p>Vault reads product metafields from the <code>tcg</code> namespace:</p>
+<ul>
+  <li><code>tcg.game</code> — Game name (MTG, Pokemon, etc.)</li>
+  <li><code>tcg.set_code</code> — Set abbreviation (e.g., CLU, SV3PT5)</li>
+  <li><code>tcg.rarity</code> — Card rarity (Common, Uncommon, Rare, Mythic, etc.)</li>
+  <li><code>tcg.finish</code> — Card finish (Normal, Foil, Etched, Holo)</li>
+  <li><code>tcg.card_number</code> — Collector number</li>
+  <li><code>tcg.artist</code> — Card artist name</li>
+  <li><code>tcg.release_date</code> — Set release date (for preorder countdown)</li>
+  <li><code>tcg.is_preorder</code> — Boolean flag for preorder products</li>
+</ul>
+<p>These metafields power the TCG badges, condition pricing, and set browser. Define them in <strong>Settings &gt; Custom data &gt; Products</strong>.</p>
+
+<h2 id="localization">Languages &amp; Localization</h2>
+<p>Vault includes translations for 6 languages: English (default), French, German, Spanish, Italian, and Japanese. All TCG-specific terms are translatable via locale files.</p>
+
+<h2 id="support">Support</h2>
+<p>Need help? Contact us:</p>
+<ul>
+  <li>Email: <a href="mailto:dean@developedbydean.ai">dean@developedbydean.ai</a></li>
+  <li>Response time: within 24 hours on business days</li>
+</ul>
+
+</div>
+<footer>
+  <p>Vault Theme by DevelopedByDean</p>
+</footer>
+</body>
+</html>
