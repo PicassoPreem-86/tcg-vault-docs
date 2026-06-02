@@ -1,3 +1,7 @@
+---
+title: "Getting Started"
+---
+
 # Getting Started
 
 This guide gets your TCG store live on the theme in under 30 minutes.
@@ -26,7 +30,7 @@ To switch preset: in the theme editor, click **Theme settings** → **Presets**,
 The theme reads per-product card data from a `tcg.*` metafield namespace (set name, rarity, finish, release date, etc.). Define these once in your admin so they're available on every product:
 
 1. Go to **Settings → Custom data → Products**.
-2. Click **Add definition** and create each of the metafields listed in [TCG Metafields](tcg-metafields.md).
+2. Click **Add definition** and create each of the metafields listed in [TCG Metafields](tcg-metafields.html).
 3. Save.
 
 You don't have to populate every field on every product — the theme hides any TCG block whose metafields are empty.
@@ -40,7 +44,7 @@ If you sell singles with condition tiers (NM/LP/MP/HP/DMG):
 3. Set the option values to your condition labels: **Near Mint**, **Lightly Played**, **Moderately Played**, **Heavily Played**, **Damaged**.
 4. Set prices and inventory per variant.
 
-The theme's **TCG condition price tiers** and **TCG stock indicator** product blocks will auto-populate from these variants. See [Product Pages](product-pages.md) for full details.
+The theme's **TCG condition price tiers** and **TCG stock indicator** product blocks will auto-populate from these variants. See [Product Pages](product-pages.html) for full details.
 
 ## 5. Configure the game mega-menu
 
@@ -52,7 +56,7 @@ If you want the per-game header nav:
 4. Add the **TCG game mega-menu** section.
 5. For each game block, select the matching linklist.
 
-See [Game Mega-Menu](mega-menu.md) for a worked example.
+See [Game Mega-Menu](mega-menu.html) for a worked example.
 
 ## 6. Customize per-game accent colours
 
@@ -70,7 +74,7 @@ Change these in each game block's settings in the theme editor.
 
 If you use BinderPOS, TCGplayer Pro, TCG Sync, Crystal Commerce, or similar, the theme hosts their app blocks on the product page, cart drawer, buylist page, and deckbuilder page.
 
-See [App Integrations](apps.md) for per-app setup.
+See [App Integrations](apps.html) for per-app setup.
 
 ## 8. Before you publish
 

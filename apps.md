@@ -1,3 +1,7 @@
+---
+title: "App Integrations"
+---
+
 # App Integrations
 
 The theme **doesn't depend on any specific TCG app** (Shopify Theme Store rules prohibit that), but it's built as a great **host** for the common TCG inventory and buylist apps. This guide shows where app blocks can mount and how to integrate each major TCG app.

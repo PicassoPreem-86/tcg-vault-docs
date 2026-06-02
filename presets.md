@@ -1,3 +1,7 @@
+---
+title: "Preset Differences — Vault vs Sealed"
+---
+
 # Preset Differences — Vault vs Sealed
 
 The theme ships with two presets. Both use the same sections, blocks, and metafields — the difference is entirely in the **visual system** and a handful of behaviour toggles.

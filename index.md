@@ -23,7 +23,7 @@ Purpose-built theme for Trading Card Game retailers on Shopify. Two presets — 
 ## Support
 
 - **Email:** [dean@bknddevelopment.com](mailto:dean@bknddevelopment.com)
-- **Help desk:** *Replace this line with your Tawk.to Chat Page URL once configured — see `specs/help-desk-recommendation.md` for the signup flow.*
+- **Help desk:** [https://tawk.to/tcgvault](https://tawk.to/tcgvault)
 
 Preferred path: email for merchant questions, live chat (once configured) for pre-sale and setup support.
 

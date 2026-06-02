@@ -1,3 +1,7 @@
+---
+title: "FAQ & Troubleshooting"
+---
+
 # FAQ & Troubleshooting
 
 ## General

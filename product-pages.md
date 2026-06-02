@@ -1,3 +1,7 @@
+---
+title: "Product Pages"
+---
+
 # Product Pages
 
 The theme's product page is built around **six TCG-specific blocks** that read from a combination of product variants and the `tcg.*` metafield namespace. Each block hides itself gracefully when its data source is empty, so you can use the same product template for singles, sealed, and supplies without customizing per SKU type.

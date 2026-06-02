@@ -1,3 +1,7 @@
+---
+title: "Game Mega-Menu Setup"
+---
+
 # Game Mega-Menu Setup
 
 The `tcg-game-mega-menu` section is a horizontal nav bar with a tab per TCG you carry, each of which expands into a mega-panel showing that game's sub-navigation organized into columns. This guide walks through setting it up end-to-end.
@@ -55,7 +59,7 @@ The section ships with 6 default game blocks (MTG, Pokémon, YGO, One Piece, Lor
 | Field | What to set |
 |---|---|
 | **Game name** | Display name (e.g. "Magic: The Gathering") |
-| **Accent colour** | Tab underline + link hover color (see defaults in [Getting Started](getting-started.md)) |
+| **Accent colour** | Tab underline + link hover color (see defaults in [Getting Started](getting-started.html)) |
 | **Shop-all link** | Top-level link, e.g. your game collection (`/collections/mtg`) |
 | **Tagline** | Short line shown in the expanded panel (e.g. "Singles, sealed, and pre-orders") |
 | **Sub-nav linklist** | The linklist you created in step 1 |

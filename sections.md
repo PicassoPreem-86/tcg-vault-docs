@@ -1,3 +1,7 @@
+---
+title: "TCG Sections Reference"
+---
+
 # TCG Sections Reference
 
 The theme ships with nine TCG-specific sections. Each has a preset in the theme editor's **Add section** menu, so you can drop them on any page.
@@ -29,7 +33,7 @@ Header-group section — horizontal tab bar per game that expands into a mega-pa
 | Per-block: tagline | Short line shown in the expanded panel |
 | Per-block: menu | Shopify linklist for this game's sub-nav |
 
-Use on: header group. See [Game Mega-Menu](mega-menu.md) for setup.
+Use on: header group. See [Game Mega-Menu](mega-menu.html) for setup.
 
 ## tcg-preorder-showcase
 

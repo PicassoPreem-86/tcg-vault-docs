@@ -1,3 +1,7 @@
+---
+title: "TCG Metafield Namespace"
+---
+
 # TCG Metafield Namespace
 
 The TCG Theme uses a dedicated `tcg.*` metafield namespace to drive card-specific displays — set names, conditions, rarities, finishes, preorder dates, and more. These metafields are **optional**: the theme gracefully falls back to standard Shopify product data when they're not set.

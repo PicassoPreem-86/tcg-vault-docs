@@ -1,3 +1,7 @@
+---
+title: "Templates & Layouts"
+---
+
 # Templates & Layouts
 
 The theme ships with alternate templates for collections and pages. Assign the right template to each collection/page in the admin to get the right layout.
